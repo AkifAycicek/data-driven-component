@@ -1,6 +1,19 @@
-# Vue 3 + Vite
+# Data-Driven Component ⁉
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+In this project, I did build an example of `data-driven` form component that allows us create a form with big JSON data.
+
+I only used
+
+<ul>
+  <li><a href="https://vuejs.org">Vue</a></li>
+  <li><a href="https://getbootstrap.com">Bootstrap</a></li>
+  <li><a href="https://github.com/mikeerickson/validatorjs">Valitadorjs</a></li>
+</ul>
+
+ and avoided to use libraries like `lodash`.
+
+ `yarn dev` / `npm run dev` to start development server
+ `yarn dev:db` / `npm run dev:db` to start [fake API](https://github.com/typicode/json-server)
 
 ## Recommended IDE Setup
 
