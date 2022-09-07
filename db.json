@@ -1,25 +1,3 @@
 {
-  "posts": [
-    {
-    "cf_6099a2aea0d0960004268fd8" : "Deneme Başlığı",
-    "cf_6099a48aa0d09600042696d1" : "test_category1",
-    "cf_6099a511a0d0960004269ab6" : true,
-    "cf_6099a52ca0d0960004269ca7" : "2021-05-10T17:27:08.543-04:00",
-    "cf_6099a538a0d0960004269e98" : "Bu bir case açıklamasıdır..."
-    },
-    {
-    "cf_6099a2aea0d0960004268fd8" : "Deneme",
-    "cf_6099a48aa0d09600042696d1" : "test_category 23",
-    "cf_6099a511a0d0960004269ab6" : false,
-    "cf_6099a52ca0d0960004269ca7" : null,
-    "cf_6099a538a0d0960004269e98" : "Bu bir case açıklamasıdır..."
-    },
-    {
-    "cf_6099a2aea0d0960004268fd8" : "Deneme Başlığı  Başlığı",
-    "cf_6099a48aa0d09600042696d1" : "category",
-    "cf_6099a511a0d0960004269ab6" : true,
-    "cf_6099a52ca0d0960004269ca7" : "2021-05-10T17:27:08.543-04:00",
-    "cf_6099a538a0d0960004269e98" : "Bu bir case açıklamasıdır..."
-    }
-  ]
+  "posts": []
 }

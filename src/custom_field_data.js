@@ -22,7 +22,7 @@ const custom_fields = [
       id: "6099a2aea0d0960004268fd9",
     },
     input_type: "textbox",
-    input_validator: "none",
+    input_validator: "",
     is_list_item: false,
     is_required: true,
     name: "Title",
