@@ -78,11 +78,19 @@
       </div>
       <DataDrivenForm
         v-else
-        v-model="state.post"
+        :model-value="state.post"
         :fields="customFields"
         :actions="state.formActions"
         @initForm="state.form = $event"
-      />
+      >
+        <template #action_2="{ action }">
+          <button
+            class="btn btn-outline-primary"
+            @click="state.form.defaults = state.form.getAttributes()"
+            v-text="action.text"
+          />
+        </template>
+      </DataDrivenForm>
     </template>
   </BsModal>
 </template>
@@ -115,6 +123,9 @@ const state = reactive({
       text: "Reset",
       onclick: () => state.form.reset(),
       className: "btn-outline-dark mx-1",
+    },
+    {
+      text: "Set default",
     },
   ],
   router: useRouter(),
